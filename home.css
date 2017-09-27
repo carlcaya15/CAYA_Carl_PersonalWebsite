@@ -25,3 +25,7 @@ nav{
 	opacity: 0.8;
 	line-height: 80px;
 }
+
+nav ul{
+	float: right;
+}
