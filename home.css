@@ -1,0 +1,7 @@
+body{
+	margin-top: 3%;
+	margin: 0px;
+	padding: 0px;
+	background: url('home.jpg') no-repeat center center fixed;
+	background-size: cover;
+}
