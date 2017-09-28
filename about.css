@@ -52,11 +52,11 @@ nav ul li a{
 }
 
 #intro p{
+	border-style: solid;
 	text-indent: 30px;
 	color: white;
 	background-color: black;
 	transform: translateY(-30%);
-	text-align: center;
 	font-weight: bold;
 	font-family: Century Gothic;
 	width: 800px;
@@ -67,11 +67,11 @@ nav ul li a{
 }
 
 #p2 p{
+	border-style: solid;
 	text-indent: 30px;
 	color: white;
 	background-color: black;
 	transform: translateY(-30%);
-	text-align: center;
 	font-weight: bold;
 	font-family: Century Gothic;
 	width: 800px;
