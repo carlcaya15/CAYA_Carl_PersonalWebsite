@@ -44,3 +44,7 @@ nav ul li:hover{
 	background-color: #BAD525;
 	transition: 0.8s all;
 }
+
+nav ul li a{
+	text-decoration: none;
+}
