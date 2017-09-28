@@ -8,7 +8,25 @@ body{
 
 #welcome{
 	text-align: center;
-	margin-top: 	
+	font-weight: bold;
+	font-family: Century Gothic;
+	font-size: 80px;
+	background-color: #B39953;
+	color: #fff;
+	transform: translateY(-30%);
+	padding: 50px;
+	opacity: 0.8;
+}
+
+#welcome p{
+	text-indent: 0.6;
+	font-size: 15px;
+	background-color: #F5CE65;
+	padding: 15px;
+}
+
+#padding{
+	padding: 30px;
 }
 
 *{
@@ -23,7 +41,7 @@ a{
 
 #main{
 	width: 100%;
-	height: 50vh;
+	height: 40vh;
 }
 
 nav{
