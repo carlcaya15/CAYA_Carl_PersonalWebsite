@@ -1,24 +1,52 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<title>Personal Webpage</title>
-	<link rel="stylesheet" href="home.css" type="text/css"/>
-</head>
-<body>
-	<div id="main">
-			<nav>
-			<img src="logo.png" width="200" height="80">
-				<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="about.html">About Me</a></li>
-				<li><a href="goals.html">Goals</a></li>
-				<li><a href="experience.html">Experience</a></li>
-				<li><a href="achievements.html">Achievements</a></li>
-				<li><a href="skills.html">Skills</a></li>
-				<li><a href="contact.html">Contact</a></li>
-				</ul>
-			</nav>
-		</div>
-</body>
-</html>	
+body{
+	margin-top: 3%;
+	margin: 0px;
+	padding: 0px;
+	background: url('home.jpg') no-repeat center center fixed;
+	background-size: cover;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;	
+}
+
+a{
+	font-weight: bold;
+}
+
+#main{
+	width: 100%;
+	height: 100vh;
+}
+
+nav{
+	position: fixed;
+	width: 100%;
+	height: 80px;
+	background-color: #377D7A;
+	opacity: 0.8;
+	line-height: 80px;
+}
+
+nav ul{
+	float: right;
+	margin-right: 30px;
+}
+
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+}
+
+nav ul li:hover{
+	background-color: #BAD525;
+	transition: 0.8s all;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 30px;
+}
