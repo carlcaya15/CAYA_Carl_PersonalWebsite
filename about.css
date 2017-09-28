@@ -18,7 +18,7 @@ a{
 
 #main{
 	width: 100%;
-	height: 100vh;
+	height: 30vh;
 }
 
 nav{
@@ -49,4 +49,35 @@ nav ul li a{
 	text-decoration: none;
 	color: #fff;
 	padding: 30px;
+}
+
+#intro p{
+	text-indent: 30px;
+	color: white;
+	background-color: black;
+	transform: translateY(-30%);
+	text-align: center;
+	font-weight: bold;
+	font-family: Century Gothic;
+	width: 800px;
+	text-align: justify;
+	text-justify: inter-word;
+	opacity: 0.8;
+	padding: 20px;
+}
+
+#p2 p{
+	text-indent: 30px;
+	color: white;
+	background-color: black;
+	transform: translateY(-30%);
+	text-align: center;
+	font-weight: bold;
+	font-family: Century Gothic;
+	width: 800px;
+	text-align: justify;
+	text-justify: inter-word;
+	opacity: 0.8;
+	padding: 20px;
+	float: right;
 }
