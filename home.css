@@ -38,4 +38,5 @@ nav ul li{
 
 nav ul li:hover{
 	background-color: #BAD525;
+	transition: 0.8s all;
 }
