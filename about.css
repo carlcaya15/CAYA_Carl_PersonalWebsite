@@ -50,6 +50,12 @@ nav ul li a{
 	padding: 30px;
 }
 
+#pic img{
+	margin-left: 150px;
+	border: solid;
+	border-color: white; 
+}
+
 #intro p{
 	border-style: solid;
 	text-indent: 30px;
