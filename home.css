@@ -105,4 +105,16 @@ div{
 		width: auto;
 		float: none;
 	}
+}
+
+#footer pre{ 
+   	left: 0;
+   	bottom: 0;
+   	width: 100%;
+   	background-color: black;
+   	color: white;
+   	text-align: center;
+   	padding-bottom: 10px;
+   	padding-top: 10px;
+   	opacity: 0.8;
 }	

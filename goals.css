@@ -22,7 +22,6 @@ a{
 }
 
 nav{
-	position: fixed;
 	width: 100%;
 	height: 80px;
 	background-color: #377D7A;
@@ -99,4 +98,17 @@ nav ul li a{
 	padding-top: 10px;
 	padding-bottom: 10px;
 	float: right;
+}
+
+#footer pre{ 
+	margin-top: 200px;
+   	left: 0;
+   	bottom: 0;
+   	width: 100%;
+   	background-color: black;
+   	color: white;
+   	text-align: center;
+   	padding-bottom: 10px;
+   	padding-top: 10px;
+   	opacity: 0.8;
 }
